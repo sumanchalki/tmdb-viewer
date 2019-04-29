@@ -11,6 +11,10 @@ import createSagaMiddleware from 'redux-saga';
 import rootSaga from './sagas';
 import {fetchGenres} from './actions';
 
+// Add the polyfills.
+import 'es5-shim';
+import 'es6-shim';
+
 const initialState = loadState();
 
 const sagaMiddleware = createSagaMiddleware();
