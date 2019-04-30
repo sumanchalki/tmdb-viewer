@@ -1,4 +1,5 @@
 import imageFallback from '../no-image.png';
+import 'isomorphic-fetch';
 
 const BASE_API_URL = '//api.themoviedb.org/3/';
 const BASE_IMG_API = '//image.tmdb.org/t/p/';

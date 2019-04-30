@@ -11,8 +11,9 @@ import rootSaga from './sagas';
 import {fetchGenres} from './actions';
 
 // Add the polyfills.
-import 'es5-shim';
-import 'es6-shim';
+import "core-js/es5";
+import "core-js/es6";
+import "core-js/es7";
 
 const initialState = loadState();
 
